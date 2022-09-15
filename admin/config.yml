@@ -2,10 +2,12 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
   site_domain: kingeric1992.github.io
-  
+
+site_url: https://kingeric1992.github.io/Blog  
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
+
 collections:
   - name: 'blog'
     label: 'Blog'
